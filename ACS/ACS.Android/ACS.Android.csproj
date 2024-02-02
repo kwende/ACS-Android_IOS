@@ -64,6 +64,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAarLibrary Include="aar\azure-communication-calling-2.6.0.beta-1.aar" />
+    <AndroidAarLibrary Include="aar\azure-core-logging-1.0.0-beta.12.aar" />
+    <AndroidAarLibrary Include="aar\dualscreen-layout-1.0.0-alpha01.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_core-0.0.21.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_drawer-0.0.21.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_listitem-0.0.21.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_others-0.0.21.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_persona-0.0.21.aar" />
+    <AndroidAarLibrary Include="aar\fluentui_transients-0.0.21.aar" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="Properties\AndroidManifest.xml" />
