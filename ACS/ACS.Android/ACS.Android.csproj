@@ -59,6 +59,7 @@
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Acs.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -104,6 +105,10 @@
     <ProjectReference Include="..\AzureCommunicationCommon\AzureCommunicationCommon.csproj">
       <Project>{346bc9d8-9d49-4bf4-937c-0ebf21232fb7}</Project>
       <Name>AzureCommunicationCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AzureCommunicationCore\AzureCommunicationCore.csproj">
+      <Project>{988dd655-9295-487d-ba6a-9c5d94ea6e4f}</Project>
+      <Name>AzureCommunicationCore</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
