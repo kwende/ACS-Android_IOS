@@ -1,0 +1,72 @@
+﻿<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+	<attr
+		path="/api/package[@name='com.microsoft.dl.video.capture.api']/class[@name='FpsRange']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.microsoft.dl.video.capture.api.FpsRange']]/parameter[1]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.microsoft.dl.video.capture.impl']/class[@name='FpsRangeComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.microsoft.dl.video.capture.api.FpsRange'] and parameter[2][@type='com.microsoft.dl.video.capture.api.FpsRange']]/parameter[1]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.microsoft.dl.video.capture.impl']/class[@name='FpsRangeComparator']/method[@name='compare' and count(parameter)=2 and parameter[1][@type='com.microsoft.dl.video.capture.api.FpsRange'] and parameter[2][@type='com.microsoft.dl.video.capture.api.FpsRange']]/parameter[2]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.microsoft.dl.video.utils']/class[@name='Resolution']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.microsoft.dl.video.utils.Resolution']]/parameter[1]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.format']/class[@name='Resolution']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.skype.android.video.hw.format.Resolution']]/parameter[1]"
+		name="managedType">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.extension.encoder']/class[@name='VideoCameraEncoderExtension']/method[@name='doCreateEncoder' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+		name="managedReturn">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.extension.encoder']/class[@name='VideoTextureEncoderExtension']/method[@name='doCreateEncoder' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+		name="managedReturn">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.extension.decoder']/class[@name='VideoSampleDecoderExtension.Factory']/method[@name='create' and count(parameter)=1 and parameter[1][@type='int']]"
+		name="managedReturn">
+		Com.Skype.Android.Video.HW.Extension.Decoder.IVideoDecoderExtension
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.extension.encoder']/class[@name='VideoSampleEncoderExtension']/method[@name='doCreateEncoder' and count(parameter)=1 and parameter[1][@type='java.lang.String']]"
+		name="managedReturn">
+		Java.Lang.Object
+	</attr>
+
+	<attr
+		path="/api/package[@name='com.skype.android.video.hw.extension.encoder']/class[@name='VideoSampleEncoderExtension.Factory']/method[@name='create' and count(parameter)=1 and parameter[1][@type='int']]"
+		name="managedReturn">
+		Com.Skype.Android.Video.HW.Extension.Encoder.IVideoEncoderExtension
+	</attr>
+
+	<remove-node
+		path="/api/package[@name='com.skype.android.jipc.omx.inout']/class[@name='OutCodecs']"/>
+
+</metadata>

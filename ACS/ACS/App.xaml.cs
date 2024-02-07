@@ -1,16 +1,17 @@
-﻿using ACS.Services;
-using ACS.Views;
-using System;
+﻿using ACS.Interfaces;
+using ACS.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace ACS
 {
     public partial class App : Application
     {
+        public static IAcs Acs { get; private set; }
 
-        public App()
+        public App(IAcs acs)
         {
+            Acs = acs;
+
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();

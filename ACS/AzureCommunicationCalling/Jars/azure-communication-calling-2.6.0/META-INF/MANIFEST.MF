@@ -1,0 +1,105 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_112 (Oracle Corporation)
+
+Name: jni/x86_64/libRtmMediaManagerDyn.so
+SHA-256-Digest: UCM8+4IXeQMDjcU5Wa9FufonqilNIBFZycAtpIBahwo=
+
+Name: AndroidManifest.xml
+SHA-256-Digest: Sv2VaYHcOSk+dAWVnjpeX+66wm34v0yQRAxCZ5oDp5U=
+
+Name: jni/x86/libACSCallingShared.so
+SHA-256-Digest: mbNtDDwkygUi83NhlzyWltun+xTsIQP38RNCJeQNy/o=
+
+Name: libs/dl-audio.jar
+SHA-256-Digest: NgF3YZiVEE9GyykGTAw0b5PCPM7k3X6jlWOwBLu4av4=
+
+Name: jni/x86/librt-java-bindings.so
+SHA-256-Digest: 701Cfk6oj3JAxaEvGMOurJb/UXPlFYhSEtYlus1aUOg=
+
+Name: R.txt
+SHA-256-Digest: vvMMWROxrKzphxDzL+95NgLrtVF7G+lGpbOPUiyUQJI=
+
+Name: jni/arm64-v8a/librt-java-bindings.so
+SHA-256-Digest: bF73mk8qa8E7l9EvZ+Np5hjvnsPHM03ZJO/drZQEPuw=
+
+Name: libs/skypert.jar
+SHA-256-Digest: 4V4iN9TxZYNuuCLNtWcrpNXkGDZnPSWCL/j+MGM0BYI=
+
+Name: libs/dl-common.jar
+SHA-256-Digest: YjuotL5lfbqYHvC9yAs3fH2OhE6sAfkR3J6Tkf4+jVQ=
+
+Name: jni/x86_64/libskypert.so
+SHA-256-Digest: 11NB8EKeVC50xTLO7IOn2V9me3+6ZAHa6V6EZKVicWc=
+
+Name: libs/dl-video.jar
+SHA-256-Digest: A+sZvOA4umeZ+qU0KtdISgm9bbnefIdSq2I+NKQKhbg=
+
+Name: jni/armeabi-v7a/libRtmMediaManagerDyn.so
+SHA-256-Digest: 745PXpFN/f/fXsG3+s0Mim6s7BrbCZuXDkXy+bOVsQI=
+
+Name: jni/x86/libc++_shared.so
+SHA-256-Digest: vsGvbFtnjgMaY9iIXCWBxNYFhO2/ErbOo8XpF5wihYI=
+
+Name: jni/x86_64/libc++_shared.so
+SHA-256-Digest: sKlBax5Wkn8mHPTnUaceKez5+2zK2sXRaWt/ky5wBXg=
+
+Name: jni/arm64-v8a/libskypert.so
+SHA-256-Digest: 2GOQJCml7dtHy15lmWqJ0Ee8jcNPDbdCYrdtyjRCktA=
+
+Name: jni/armeabi-v7a/librt-java-bindings.so
+SHA-256-Digest: jBIHiCKIf6X+wvM4jSSnAa6C6ClmXU4fgMV5Q2ecDh0=
+
+Name: libs/rt_java_bindings.jar
+SHA-256-Digest: QRYmJY4hKC0w9xCuoZjlN8gmG0K7wgR9im1+cSfpdPY=
+
+Name: jni/armeabi-v7a/libACSCallingShared.so
+SHA-256-Digest: bEy0HX7mN9KsyZ0HVSKLV/3Bnu3PRfppkgmZqPxLv64=
+
+Name: libs/VideoHost.jar
+SHA-256-Digest: KdEQ1nSy7p6/Ujdi6dZmzksq8buGM0Z7t7DMCWqcA9o=
+
+Name: libs/hw-video-codec.jar
+SHA-256-Digest: ck9WyvFZOCzJvlgjrI+0GjfC6kpJ8ier9SM7vscvtMY=
+
+Name: classes.jar
+SHA-256-Digest: v3k2QvIciqbuc89vB//UCSZ374AjQ1FPQz9wpKQu1fE=
+
+Name: res/values/values.xml
+SHA-256-Digest: ZJ3Uq1/qwI02kdTe96y0Lgc+nNC7BQwvc5du9Yc9t4U=
+
+Name: jni/x86/libRtmMediaManagerDyn.so
+SHA-256-Digest: bYFFNNqAlowSQPLkValgrjZNvx3e5iewjg1gZXsWy0k=
+
+Name: jni/arm64-v8a/libRtmMediaManagerDyn.so
+SHA-256-Digest: xAiL386j5YOZ4w/aLrU0Fo68FQ3Zw4rvUW5xFR2qBtA=
+
+Name: libs/palvideo.jar
+SHA-256-Digest: zZRCeJXh1aPo3JYs0/Gu8jyYqbjNrEZLsUhT9aFyBr0=
+
+Name: jni/x86_64/libACSCallingShared.so
+SHA-256-Digest: xeZ+lfV23H5YLU6OeD6x2RmnEhyprw9YRPHCf4b0h4U=
+
+Name: jni/x86/libskypert.so
+SHA-256-Digest: hBGDrwl/NKcNhqquyC7dCHpDJXkC6NIZykzYo9DuYrk=
+
+Name: META-INF/com/android/build/gradle/aar-metadata.properties
+SHA-256-Digest: fX/jLdV197Nf+QATgWIOastjntT2zWASJ1QELHo2GNI=
+
+Name: jni/armeabi-v7a/libskypert.so
+SHA-256-Digest: htxCSMCQGB5Rx7qA/skm2FqBbNgRscv4U9jM+t/7HPA=
+
+Name: jni/arm64-v8a/libACSCallingShared.so
+SHA-256-Digest: HyZ6ubdU2ooo0mzNj4z5K1kOKBO7bnRoUqFzDS66IlE=
+
+Name: jni/x86_64/librt-java-bindings.so
+SHA-256-Digest: UIqm7ucrZFeXSSbqgw8/EinGEIOE1nhHEfuy5p/LJ+s=
+
+Name: jni/arm64-v8a/libc++_shared.so
+SHA-256-Digest: 00O0FzVBhHFZfDLDTjj4kceOoxdxPqpAD4zrK6r1B/A=
+
+Name: jni/armeabi-v7a/libc++_shared.so
+SHA-256-Digest: b8I+/dsclMsru1yNf9+SkDPV3RAGveOSljG3c8oPA3Y=
+
+Name: libs/palutils.jar
+SHA-256-Digest: J3wj+QbCSaC2Nc8dUcwDV65u6y7EWW3G9zXzVoQ9Lew=
+
