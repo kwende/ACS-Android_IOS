@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCommunicationCore", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCommunicationCalling", "AzureCommunicationCalling\AzureCommunicationCalling.csproj", "{C8F51251-0B45-4000-ACBC-B271CFB15DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCommunicationLogging", "AzureCommunicationLogging\AzureCommunicationLogging.csproj", "{06D18DCF-A653-4BFD-9C90-FD5826A4027F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +117,18 @@ Global
 		{C8F51251-0B45-4000-ACBC-B271CFB15DBA}.Release|iPhone.Build.0 = Release|Any CPU
 		{C8F51251-0B45-4000-ACBC-B271CFB15DBA}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{C8F51251-0B45-4000-ACBC-B271CFB15DBA}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|iPhone.Build.0 = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{06D18DCF-A653-4BFD-9C90-FD5826A4027F}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

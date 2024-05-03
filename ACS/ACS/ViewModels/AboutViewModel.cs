@@ -39,6 +39,8 @@ namespace ACS.ViewModels
 
                 _callToken = await App.Acs.CreateAccessTokenForUserAsync(AcsCallerId, TimeSpan.FromHours(2));
 
+                App.Acs.StartCallAsync(_callToken, AcsCalleeId);
+
                 await Task.Delay(TimeSpan.FromSeconds(1));
             });
         }

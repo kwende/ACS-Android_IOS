@@ -7,5 +7,6 @@ namespace ACS.Interfaces
     {
         void Initialize(string acsConnectionString);
         Task<string> CreateAccessTokenForUserAsync(string acsUserId, TimeSpan validFor);
+        void StartCallAsync(string acsCallerToken, string acsCalleeId);
     }
 }

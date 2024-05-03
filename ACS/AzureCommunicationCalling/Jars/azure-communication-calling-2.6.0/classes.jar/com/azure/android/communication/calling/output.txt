@@ -1,0 +1,49 @@
+Compiled from "CallClient.java"
+public final class com.azure.android.communication.calling.CallClient {
+  long handle;
+    descriptor: J
+  com.azure.android.communication.calling.CallClient(long, boolean);
+    descriptor: (JZ)V
+
+  long getHandle();
+    descriptor: ()J
+
+  public com.azure.android.communication.calling.CallClient();
+    descriptor: ()V
+
+  public com.azure.android.communication.calling.CallClient(com.azure.android.communication.calling.CallClientOptions);
+    descriptor: (Lcom/azure/android/communication/calling/CallClientOptions;)V
+
+  protected void finalize();
+    descriptor: ()V
+
+  public com.azure.android.communication.calling.CallDebugInfo getDebugInfo();
+    descriptor: ()Lcom/azure/android/communication/calling/CallDebugInfo;
+
+  static com.azure.android.communication.calling.CallClient getInstance(long, boolean);
+    descriptor: (JZ)Lcom/azure/android/communication/calling/CallClient;
+
+  public void dispose();
+    descriptor: ()V
+
+  public java9.util.concurrent.CompletableFuture<com.azure.android.communication.calling.DeviceManager> getDeviceManager(android.content.Context);
+    descriptor: (Landroid/content/Context;)Ljava9/util/concurrent/CompletableFuture;
+
+  public java9.util.concurrent.CompletableFuture<com.azure.android.communication.calling.CallAgent> createCallAgent(android.content.Context, com.azure.android.communication.common.CommunicationTokenCredential, com.azure.android.communication.calling.CallAgentOptions);
+    descriptor: (Landroid/content/Context;Lcom/azure/android/communication/common/CommunicationTokenCredential;Lcom/azure/android/communication/calling/CallAgentOptions;)Ljava9/util/concurrent/CompletableFuture;
+
+  public java9.util.concurrent.CompletableFuture<com.azure.android.communication.calling.CallAgent> createCallAgent(android.content.Context, com.azure.android.communication.common.CommunicationTokenCredential);
+    descriptor: (Landroid/content/Context;Lcom/azure/android/communication/common/CommunicationTokenCredential;)Ljava9/util/concurrent/CompletableFuture;
+
+  static void loadNativeLibraries();
+    descriptor: ()V
+
+  static void access$000(com.azure.android.communication.calling.CallClient, android.content.Context);
+    descriptor: (Lcom/azure/android/communication/calling/CallClient;Landroid/content/Context;)V
+
+  static java9.util.concurrent.CompletableFuture access$100(com.azure.android.communication.calling.CallClient, com.azure.android.communication.calling.InternalTokenProvider, com.azure.android.communication.calling.CallAgentOptions);
+    descriptor: (Lcom/azure/android/communication/calling/CallClient;Lcom/azure/android/communication/calling/InternalTokenProvider;Lcom/azure/android/communication/calling/CallAgentOptions;)Ljava9/util/concurrent/CompletableFuture;
+
+  static {};
+    descriptor: ()V
+}
